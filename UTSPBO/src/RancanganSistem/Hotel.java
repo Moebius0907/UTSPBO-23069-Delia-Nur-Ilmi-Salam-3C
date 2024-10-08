@@ -13,9 +13,9 @@ package RancanganSistem;
 //Kelas Hotel bertanggung jawab untuk mengelola data terkait kamar, pelanggan, dan pesanan dalam hotel
 public class Hotel implements LayananHotel{
      //Deklarasi attribute kelas Hotel 
-    private Kamar daftarKamar[] = new Kamar[5];//Array untuk menyimpan kamar sebanyak 5 
-    private Pesanan daftarPesanan [] = new Pesanan[5];//Array untuk menyimpan Pesanam
-    private Pelanggan daftarPelanggan [] = new Pelanggan[5];//Array untuk menyimpan pelanggan
+    private Kamar daftarKamar[] = new Kamar[10];//Array untuk menyimpan kamar sebanyak 5 
+    private Pesanan daftarPesanan [] = new Pesanan[10];//Array untuk menyimpan Pesanam
+    private Pelanggan daftarPelanggan [] = new Pelanggan[10];//Array untuk menyimpan pelanggan
     private int jumlahPesanan = 0; // Menyimpan jumlah pesanan yang telah ditambahkan
     private int jumlahPelanggan = 0; // Menyimpan jumlah pelanggan yang telah ditambahkan
     boolean adaKamar = false;
